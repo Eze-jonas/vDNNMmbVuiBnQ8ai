@@ -76,6 +76,8 @@ The fine-tuned model was evaluated via inference to assess its specialization in
 
 * Track evaluation metrics for fairness and effectiveness
 
+* Source larger and more diverse candidate datasets to improve model generalization, ranking stability, and fairness evaluation.
+
 #### Notebooks & Project Structure
 * Project_Summary
 * EDA_For_Fine_Tunning.ipynb
