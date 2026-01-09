@@ -18,7 +18,7 @@ This project aimed to leverage a talent sourcing and management company dataset 
 
 #### Exploratory Data Analysis (EDA)
 
-The candidate profile dataset with keywords (“Aspiring human resources” or “seeking human resourcesdatasets was cleaned and preprocessed; details are documented in the accompanying notebooks.
+The candidate profile dataset with keywords (“Aspiring human resources” or “seeking human resources" has 105 rows and 5 clolumns. It was cleaned and preprocessed; details are documented in the accompanying notebooks.
 
 #### Fitness Prediction and Ranking
 
@@ -39,7 +39,7 @@ To re-rank candidates and ground LLM explanations in retrieved data, a retriever
 
 #### Fine-tunning LLM(LLaMA) to specialize in recruitment and candidate evaluation.
 
-The candidate profile dataset with screening scores was cleaned and preprocessed; details are documented in the accompanying notebooks. The processed dataset was then used to fine-tune LLaMA using the Low-Rank Adaptation (LoRA) method in Google Colab. The fine-tuned model was subsequently evaluated through inference to assess its specialization in recruitment and candidate evaluation tasks.
+The candidate profile dataset with screening scores has 1285 rows and 4 columns It was cleaned and preprocessed; details are documented in the accompanying notebooks. The processed dataset was then used to fine-tune LLaMA using the Low-Rank Adaptation (LoRA) method in Google Colab. The fine-tuned model was subsequently evaluated through inference to assess its specialization in recruitment and candidate evaluation tasks.
 
 #### Conclusions
 
@@ -54,6 +54,8 @@ This project successfully predicted candidate fitness and ranked candidates usin
 * Keep humans in the loop for final decisions
 
 * Track evaluation metrics for fairness and effectiveness
+
+* Source larger and more diverse candidate datasets to improve model generalization, ranking stability, and fairness evaluation.
 
 
 ```python
